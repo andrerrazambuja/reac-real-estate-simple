@@ -1,0 +1,17 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-property-button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

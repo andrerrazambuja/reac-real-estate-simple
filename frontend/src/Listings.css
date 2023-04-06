@@ -1,0 +1,33 @@
+.listings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.property-card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 250px;
+}
+
+.property-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.property-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.property-price {
+  font-size: 20px;
+}
